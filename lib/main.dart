@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'auth0.dart';
 
 void main() => runApp(MyApp());
 
@@ -136,7 +137,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
-            Icon(Icons.directions_transit),
+            // Icon(Icons.directions_transit),
+            Auth0Page(title: 'Demo',),
             Icon(Icons.directions_bike),
           ],
         ),
