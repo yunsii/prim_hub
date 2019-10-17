@@ -1,4 +1,4 @@
-package com.example.prim_hub
+package top.theprimone.primhub
 
 import android.os.Bundle
 
